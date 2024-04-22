@@ -1,6 +1,4 @@
 name: 'coverage'
-permissions:
-  pull-requests: write
 on:
     pull_request:
         branches:
@@ -10,6 +8,10 @@ on:
         - main
 jobs:
     coverage:
+        permissions:
+            checks: write
+            pull-requests: write
+            contents: write
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v3
