@@ -1,4 +1,6 @@
 name: 'coverage'
+permissions:
+  pull-requests: write
 on:
     pull_request:
         branches:
