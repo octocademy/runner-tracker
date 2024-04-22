@@ -1,4 +1,4 @@
-# Runner Tracker
+# Runner Tracker V2
 
 Runner Tracker is a simple web application that allows users to search and find runners in a race. The application is built with TypeScript, Express and Prisma.
 
